@@ -1,0 +1,105 @@
+* {
+	margin: 0px;
+}
+
+#_canvas {
+	/*position: fixed;*/
+}
+#T{
+	/*background-color: #5F9EA0;*/
+}
+#B{
+	/*background-color: aquamarine;*/
+}
+h5{
+	padding: 1px;
+	margin-left: 2px;
+	float: left;
+}
+h5:nth-of-type(1){
+	margin-left: 77.5px;
+}
+#list{
+	color: #666;
+	width: 600px;
+	height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #A9A9A9;*/
+}
+.list1{
+	background-color: royalblue;
+}
+.list2{
+	background-color: black;
+}
+.list3{
+	background-color: white;
+}
+.list4{
+	background-color: #008B8B;
+}
+.list5{
+	background-color: coral;
+}
+.list6{
+	background-color: crimson;
+}
+#list div{
+	margin-right: 20px;
+	margin-left: 5px;
+	float: left;
+	box-shadow:  2px 3px 1px darkgray;
+	display: block;
+	width: 15px;
+	height: 15px;
+}
+h1{
+	min-width: 600px;
+	color: black ;
+	font-weight: bold;
+	text-shadow:  5px 4px 3px darkgray;
+	display: block;
+	text-align: center;
+/*	width: 50%;*/
+	font-size: 37px;
+	font-family: "微软雅黑";
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;*/
+	background-color: #FFFFFF;
+	
+	
+}
+div{
+	/*background-color: #DC143C;*/
+}
+#status{
+/*	position: absolute;*/
+/*	z-index: 100;*/
+	background-color: cadetblue;
+	color: white;
+	border: 0px;
+	height: 30px;
+	width: 50px;
+	margin-left: calc(50% - 25px);
+/*	left: calc(50% - 25px);*/
+}
+#ps{
+/*	position: absolute;*/
+/*	z-index: 100;*/
+	/*background-color: cadetblue;*/
+	color: #666666;
+	border: 0px;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: calc(50% - 60px);
+	font-weight: bold;
+/*	left: calc(50% - 25px);*/
+}
+
+#status:hover {
+	background-color: darkcyan;
+}
